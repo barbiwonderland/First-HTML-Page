@@ -85,12 +85,13 @@ font-weight: bolder;
       }
       #button:hover{
          
-          color:black;
+          color:blueviolet;
+          background: black;
 
       }
       #texto{
         color:blueviolet;
-        font-size: 120%;
+        font-size: 100%;
     }
 
 
