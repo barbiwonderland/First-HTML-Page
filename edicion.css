@@ -235,7 +235,7 @@ font-variant: small-caps;
             section{
                 
                 margin:auto;
-                width: 90%;
+                width: 85%;
                 max-width: 350px;
                 justify-content: center;
                 align-items: center;
@@ -267,13 +267,14 @@ font-variant: small-caps;
     
     #galeria img{
        margin: auto;
-       width:50% ;
-       max-width: 100px;
+       width:80% ;
+       max-width: 90px;
      display: block;
        justify-content: center;
                 align-items: center;
        
        object-fit: contain;
+        height:auto;
        }
     }
 
