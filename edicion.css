@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+  }
+body{
+    padding: 2px solid red;
+    background-image: url(http://backgroundlabs.com/wp-content/uploads/2013/04/starfield-background.png);
+}
+div{
+  
+    display: inline-block;
+    border: 2px black;
+    margin-top: 10%;
+    margin-left: 3%;
+    
+}
+
+.galeria img{
+    height: 200px;
+    width: 280px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    
+}
+
+#nave {
+    width:20% ;
+    height:20% ;
+    position:absolute;
+    padding-top: 1px;
+     
+}
+li{
+    list-style: none;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    
+    
+
+}
+section{
+   
+ 
+  background-color: blueviolet;
+  width: 30%;
+  margin-left: 35%;
+  font-weight: bolder;
+  padding: 1%;
+  text-align: center;
+  margin-top: 4%;
+ 
+   
+  
+   
+    
+}
+#maintitle{
+    text-shadow: 4px 4px lightgrey;
+}
+
+ #texto{
+text-align: center;
+font-weight: bolder;
+    }
+    footer{
+        text-align: center;
+        margin-top: 2%;
+    }
+
+
+    #button {
+              
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color: blueviolet;
+        border: white  solid 3px;
+      }
+      #button:hover{
+         
+          color:black;
+
+      }
+      #texto{
+        color:blueviolet;
+        font-size: 120%;
+    }
+
+
+      @media screen and (max-width: 600px){
+  
+      #nave {
+    width:20% ;
+    height:auto ;
+    position:absolute;
+    padding-top: 1px;
+    padding-bottom: 3px;
+     
+}
+     section{
+         padding:10%;
+         margin:auto;
+         width: 98%;
+         max-width: 500px;
+     }
+     #texto{
+         color:blueviolet;
+     }
+
+         #galeria img{
+            margin:auto;
+            width:98% ;
+            max-width: 500px;
+         }
+         
+     }
+

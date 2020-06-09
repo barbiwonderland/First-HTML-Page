@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/79ba9ae8-c4ec-4aca-8833-6eddb08e132f/d91agnt-40c3526c-52c2-4327-be94-0ad4d93d7316.png" type="image/x-icon">
+    <link rel="stylesheet" href="edicion.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO Hotel </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+ function adapt(x) {
+          if (x.matches) { // If media query matches
+                $(document).ready(function() {
+                $("#nave").animate({left: "+=225"}, 2000);
+                $("#nave").animate({left: "-=100"}, 1000);
+                });
+          } else {
+                $(document).ready(function() {
+                $("#nave").animate({left: "+=1000"}, 2000);
+                $("#nave").animate({left: "-=550"}, 1000);
+                });
+          }
+        }
+
+        var x = window.matchMedia("(max-width: 700px)")
+        adapt (x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes 
+
+
+    </script>
+
+</head>
+<body>
+    <h1 id="maintitle">Bienvenido a UFO Hotel</h1>
+    <br>
+
+    <img src="https://cdn.pixabay.com/photo/2020/01/19/15/02/ufo-4778062_960_720.png" alt="" id= "nave">
+    <BR>
+    </BR>
+    <div class="galeria">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGrvNkME0H9uYPlSO0GwobcsVQX1e39PQeHKYntBLsQL02XYp7Q&s"  class="img">
+    <img src="https://danielmarin.naukas.com/files/2013/07/20133071.jpg"  class="img">
+    <img src="https://www.yaencontre.com/noticias/wp-content/uploads/2018/04/Habitacion-viaje-espacio.jpg" class="img">
+    <img src="https://cdni.rt.com/actualidad/public_images/2019.01/thumbnail/5c40dc34e9180fd72e8b4567.jpg" class="img">
+
+</div>
+    
+    <h1> <i class="fas fa-star-and-crescent"></i>Te invitamos a postularte en esta experiencia única!!! </h1>
+    <p id="texto">  Te pedimos por favor, que nos cuentes, por que te gustaría tener la oportunidad de avistar nuestros alojamientos:</p>
+    <script src="galeria.js"></script>
+
+</body>
+<section>
+    <form action="datos.php"></form>
+
+    
+            <p>Nombre</p>
+            <input type="text" id= "name " required>
+       
+            <p>Apellido</p>
+            <input type="text" id= "surname" required>
+       
+          <p>Identificación</p>
+            <input type="number" name="dni" required>
+            <p>Correo</p>
+ <input type="email" name="correo" id="correo">
+<p>Telefono</p>
+<input type="number" name="cel"></ul>
+
+        <h4>Sexo:</h4>
+       <br><input type="radio" name="hm">Femenino </br>
+      <br> <input type="radio" name="hm">Masculino </br>
+    
+   <p> ¿Por que razón te gustaría participar?:</p> 
+
+   <textarea name="texto" id="txt" cols="30" rows="10" ></textarea>
+<p></p>
+  <input  type="submit" id="button">
+</section>
+<footer>
+    
+    Pagina Creada por Barbii. Wonderlaand
+
+</footer>
+</html>
