@@ -116,7 +116,7 @@ font-weight: bolder;
      }
 
          #galeria img{
-            margin:auto;
+            margin-left:10%;
             width:100% ;
             max-width: 600px;
          }
