@@ -93,8 +93,12 @@ font-variant: small-caps;
       }
       #button:hover{
          
-          color:black;
-
+            background:black;
+      color:white;
+     
+      font-weight: bold;
+      border-radius: 3%;
+      
       }
       #texto{
         color:blueviolet;
