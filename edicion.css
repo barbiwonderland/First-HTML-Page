@@ -205,13 +205,14 @@ font-variant: small-caps;
          color:blueviolet;
      }
 
-         #galeria img{
-            margin:auto;
-            width:98% ;
-            max-width: 500px;
-            display: block;
-            max-width: 100%;
-            object-fit: contain;
+         .galeria img{
+         
+                width:80% ;
+       max-width: 100%;
+       
+       display:block;
+    margin:auto;
+    margin-bottom: 10px;
             }
             #galeria{
 
