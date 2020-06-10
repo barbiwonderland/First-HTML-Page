@@ -143,20 +143,21 @@ font-variant: small-caps;
         padding: 3%;
         border: 1px, solid blue;
         */
-        width: 120px;
-    line-height: 70px;
+        width: 50px;
+    line-height: 50px;
     
-    border-radius: 10%;
+    border-radius: 40%;
     text-align: center;
     font-size: 50px;
     color: blueviolet;
-    border: 4px solid blue;
+    border: 4px solid white;
     cursor: pointer;
     right: 10%;
         top: -30%;
         position: absolute;
         font-weight: bold;
         line-clamp: auto;
+        font-size: 30px;
     }
 
       @media screen and (max-width: 460px){
@@ -235,7 +236,7 @@ font-variant: small-caps;
             section{
                 
                 margin:auto;
-                width: 85%;
+                width: 100%;
                 max-width: 350px;
                 justify-content: center;
                 align-items: center;
@@ -267,25 +268,23 @@ font-variant: small-caps;
     
     #galeria img{
        margin: auto;
-       width:80% ;
-       max-width: 90px;
+       width:50% ;
+       max-width: 100px;
      display: block;
        justify-content: center;
                 align-items: center;
        
        object-fit: contain;
-        height:auto;
        }
-            
-               .modalboton{
-        width: 120px;
-        line-height: auto;
+       .modalboton{
+        width: 40px;
+        line-height: 130%;
         
-        border-radius: 3%;
+        border-radius: 30%;
         text-align: center;
         font-size: 30px;
-        color:blue;
-        border: 2px solid black;
+        color: blueviolet;
+        border: 50px solid white;
         border-width: 1px;
         cursor: pointer;
         right: 8%;
@@ -293,7 +292,9 @@ font-variant: small-caps;
             position: absolute;
             font-weight: bold;
             line-clamp: auto;
+        
+         
           
         }
-    }
-
+       }
+    
