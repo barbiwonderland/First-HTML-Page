@@ -7,7 +7,7 @@ $('.modal').remove()
 })
 
 });
-$(dcocument).keyup(function(e){
+$(document).keyup(function(e){
     if (e.which==27) {
    $('.modal') .remove();
 }
