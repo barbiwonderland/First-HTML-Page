@@ -16,7 +16,7 @@ div{
 
 .galeria img{
     height: 200px;
-    width: 280px;
+    width: 350px;
     margin-bottom: 5%;
     margin-top: 2%;
     cursor: pointer;
@@ -378,7 +378,7 @@ margin-bottom: 10px;
        }
        .modalboton{
         width: 40px;
-        line-height: 130%;
+        line-height: 120%;
         
         border-radius: 30%;
         text-align: center;
@@ -388,7 +388,7 @@ margin-bottom: 10px;
         border-width: 1px;
         cursor: pointer;
         right: 4%;
-            top: 7%;
+            top: 5%;
             position: absolute;
             font-weight: bold;
             line-clamp: auto;
