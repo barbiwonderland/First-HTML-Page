@@ -22,7 +22,7 @@ div{
     cursor: pointer;
     border: white solid 2px;
     object-fit: cover;
-    display:block;
+    
     
 }
 
@@ -225,6 +225,7 @@ width: 80%;
           
            margin:auto;
            margin-bottom: %;
+             display:block;
           
         }
         
