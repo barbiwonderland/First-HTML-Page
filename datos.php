@@ -6,9 +6,9 @@ $surname = $_post["surname"];
 $dni = $_POST["dni"];
 $correo = $_post["correo"];
 $cel = $_post["cel"];
-$asunto = $_post["asunto"];
+$texto = $_post["texto"];
 
-if(mail("barbiie.8@gmail.com",$name,$surname,$dni,$correo,$cel,$asunto))
+if(mail("barbiie.8@gmail.com",$name,$surname,$dni,$correo,$cel,$texto))
 {
     echo "mail enviado"; 
     else{
