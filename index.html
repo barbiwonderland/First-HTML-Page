@@ -10,7 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO Hotel </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
+   
+   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_ikjTO6FJL2rOFDn1DpbhB");
+       })();
+    </script>
+   <script>
+
  function adapt(x) {
           if (x.matches) { // If media query matches
                 $(document).ready(function() {
@@ -56,7 +65,7 @@
 
 </body>
 <section>
-    <form action="datos.php"  method="POST">
+    <form id="contact-form">
 
     
             <p>Nombre</p>
@@ -78,11 +87,12 @@
     
    <p> ¿Por que razón te gustaría participar?:</p> 
 
-   <textarea name="texto" id="txt" cols="30" rows="10" ></textarea>
+   <textarea name="mensaje" id="txt" cols="30" rows="10" ></textarea>
 <p></p>
   <input  type="submit" id="button"onclick="alert ('Gracias por completar el formulario, ya estas participando!!')">
-</section>
 </form>
+</section>
+
 <footer>
     
     Pagina creada por Barbii.Wonderlaand
